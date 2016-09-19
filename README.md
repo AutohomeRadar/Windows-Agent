@@ -33,6 +33,10 @@ You can contact us by <autohomeops@autohome.com.cn>.
 
 If you have any suggestions, bug reports, or annoyances please report them to our issue tracker at <https://github.com/AutohomeRadar/Windows-Agent/issues>.
 
+### Wiki
+
+<https://github.com/AutohomeRadar/Windows-Agent/wiki>
+
 ## License
 
 This software is licensed under the Apache License.
