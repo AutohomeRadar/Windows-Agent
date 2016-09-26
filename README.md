@@ -37,6 +37,10 @@ If you have any suggestions, bug reports, or annoyances please report them to ou
 
 <https://github.com/AutohomeRadar/Windows-Agent/wiki>
 
+### Blog
+
+The official blog of our team <http://autohomeops.corpautohome.com>
+
 ## License
 
 This software is licensed under the Apache License.
