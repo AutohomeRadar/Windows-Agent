@@ -1,0 +1,5 @@
+pypiwin32
+wmi
+flask
+psutil
+git+https://github.com/ninjadq/winstats

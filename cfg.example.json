@@ -1,0 +1,45 @@
+{
+    "debug": true,
+    "hostname": "win-test-agent",
+    "ip": "",
+    "heartbeat": {
+        "enabled": true,
+        "addr": "127.0.0.1:6030",
+        "interval": 60,
+        "timeout": 1000
+    },
+    "transfer": {
+        "enabled": true,
+        "addrs": [
+            "127.0.0.1:8433",
+            "127.0.0.1:8433"
+        ],
+        "interval": 60,
+        "timeout": 1000
+    },
+    "http": {
+        "enabled": true,
+        "listen": ":1988"
+    },
+    "collector": {
+        "ifacePrefixIgnore": ["Loopback", "Teredo Tunneling", "isatap", "6TO4 Adapter"]
+    },
+    "ignore": [
+        "cpu.busy",
+        "df.bytes.free",
+        "df.bytes.total",
+        "df.bytes.used",
+        "df.bytes.used.percent",
+        "df.inodes.total",
+        "df.inodes.free",
+        "df.inodes.used",
+        "df.inodes.used.percent",
+        "mem.memtotal",
+        "mem.memused",
+        "mem.memused.percent",
+        "mem.memfree",
+        "mem.swaptotal",
+        "mem.swapused",
+        "mem.swapfree"
+    ]
+}
